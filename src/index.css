@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+/* Import all font faces on fonts folder - WorkSans */
+/* Regular */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+/* Medium */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+}
+/* SemiBold */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}
+/* Bold */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+/* Light */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+/* Italic */
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/fonts/WorkSans-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+
+html, body, #root {
+  @apply bg-[#FDF6ED] text-[#1D2D26] font-sans min-h-screen;
+  @apply antialiased;
+  /* Use the font family */
+  font-family: 'Work Sans', sans-serif;
+}
+
+.jamaican-flag {
+  /* The entire page has a reggae little flag running vertically with the 3 colors, the 3 colors are horizontal, it only takes about 100px on the right of the screen but not on the edge and it is the entire on the background with all text going over 
+  Make it with CSS */
+  position: fixed;
+  top: 0;
+  right: 1%;
+  width: 130px;
+  height: 100%;
+  /* reggae flag, red, yellow, green*/
+  background: linear-gradient(to right, #ffb300a6 33.33%, #009639bb 33.33%, #009639 66.66%, #ce1127a6 66.66%);
+  z-index: 0; /* Ensure it stays behind other content */
+  pointer-events: none; /* Prevent interaction with the flag */ 
+  box-shadow: -5px 0 8px rgba(0, 0, 0, 0.4); /* Optional shadow for depth */
+
+}
