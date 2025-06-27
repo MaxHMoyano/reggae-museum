@@ -28,12 +28,12 @@ const CreatorsSection = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 place-items-stretch">
         <CreatorCard
           name="Marcelo Durans"
-          imageUrl="/images/marcelo.jpg"
+          imageUrl={`${import.meta.env.BASE_URL}assets/marcelo.jpeg`}
           bio={marceloBio}
         />
         <CreatorCard
           name="Mariel Haickel"
-          imageUrl="/assets/mariel.jpeg"
+          imageUrl={`${import.meta.env.BASE_URL}assets/mariel.jpeg`}
           bio={marielBio}
         />
       </div>

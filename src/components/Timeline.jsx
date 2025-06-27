@@ -7,14 +7,14 @@ const timelineItems = [
   {
      year: "1970",
     title: "O Inicio do Reggae no Brasil",
-    description: "O reggae chegou ao Brasil principalmente a partir da década de 1970, e São Luís se tornou um dos centros onde o gênero se firmou. A música reggae na cidade carrega a mensagem de resistência, amor e espiritualidade típica do gênero, mas também reflete a vivência e os desafios dos maranhenses.",
+    description: " O reggae chegou ao Brasil na década de 1970 e encontrou em São Luís um de seus principais centros de difusão. No Maranhão, o gênero se espalhou especialmente a partir da construção da Estrada de Ferro Carajás, que intensificou o intercâmbio cultural entre trabalhadores maranhenses e paraenses.",
     image: "https://scontent.fcor10-3.fna.fbcdn.net/v/t39.30808-6/505882205_3595705550563771_5340396321898819138_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=SCQQ7mm8WusQ7kNvwHhUvC2&_nc_oc=Adl2HxFBTjaSqaC6ljU21fmnKHqdZeOx1ruQXAUmzyJFHMMIf8Q2_61zowX7Ck8AKAM&_nc_zt=23&_nc_ht=scontent.fcor10-3.fna&_nc_gid=F6LHagVAiH7GDfLL6ncWUg&oh=00_AfPRpfViyH95LCe7TRDx8E6xm-BdxoT47aJAJshjf9qM0A&oe=6862472A"
   },
   {
-     year: "1986",
-    title: "Fundação do GDAM",
-    description: "O Grupo de Dança Afro Malungos o GDAM fundado no dia 22 de agosto de 1986, no teatro Arthur Azevedo na cidade de São Luís. É um coletivo cultural que tem se destacado na promoção e valorização do reggae e de outras manifestações artísticas no Maranhão. O grupo é conhecido por seu trabalho em unir artistas, promover eventos e ações culturais que fortalecem a cena musical local, sua principal linha de trabalho é a cultura reggae, fundou o Bloco do Reggae, e atua durante o ano todo promovendo a cultura afro-brasileira.",
-    image: "https://imgs.search.brave.com/vfk7z18YBvTE7QDegMaux5BuWx4cU0bFvEeUS32eSLY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXZp/c3RheWViYS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjQv/MTEvZ2RhbTMuanBn/P3c9ODUw",
+     year: "1990",
+    title: "Consolidação e industrialização do reggae em São Luís",
+    description: "Na década de 1990, o reggae se consolida como fenômeno cultural e econômico em São Luís. Clubes, radiolas, bares temáticos e programas de rádio e TV proliferam, impulsionando o surgimento de uma verdadeira indústria do reggae. Empresários, donos de radiolas e clubes investem na comercialização do gênero, promovendo festas e duelos de radiolas que atraem grandes públicos.",
+    image: "https://s2.glbimg.com/GdlAG5EmW9u93CndQfkSIK-yTvA=/620x465/s.glbimg.com/jo/g1/f/original/2015/09/07/maranhao_reggae-120785_5.jpg",
   },
   {
      year: "2020",

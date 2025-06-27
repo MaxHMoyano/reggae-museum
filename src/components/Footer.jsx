@@ -7,8 +7,8 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Sponsors</h3>
           <div className="flex items-center gap-4 flex-wrap">
             {/* Reemplazar con logos reales */}
-            <img src="/assets/prefeitura.jpg" alt="Sponsor 2" className="h-40 rounded-full" />
-            <img src="/assets/paulo_gustavo.jpg" alt="Sponsor 1" className="h-30 rounded-full" />
+            <img src={`${import.meta.env.BASE_URL}assets/prefeitura.jpg`} alt="Sponsor 2" className="h-40 rounded-full" />
+            <img src={`${import.meta.env.BASE_URL}assets/paulo_gustavo.jpg`} alt="Sponsor 1" className="h-30 rounded-full" />
           </div>
         </div>
 

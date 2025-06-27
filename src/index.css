@@ -4,42 +4,42 @@
 /* Regular */
 @font-face {
   font-family: 'Work Sans';
-  src: url('/fonts/WorkSans-Regular.woff2') format('woff2');
+  src: url('public/fonts/WorkSans-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 /* Medium */
 @font-face {
   font-family: 'Work Sans';
-  src: url('/fonts/WorkSans-Medium.woff2') format('woff2');
+  src: url('public/fonts/WorkSans-Medium.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
 }
 /* SemiBold */
 @font-face {
   font-family: 'Work Sans';
-  src: url('/fonts/WorkSans-SemiBold.woff2') format('woff2');
+  src: url('public/fonts/WorkSans-SemiBold.woff2') format('woff2');
   font-weight: 600;
   font-style: normal;
 }
 /* Bold */
 @font-face {
   font-family: 'Work Sans';
-  src: url('/fonts/WorkSans-Bold.woff2') format('woff2');
+  src: url('public/fonts/WorkSans-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 /* Light */
 @font-face {
   font-family: 'Work Sans';
-  src: url('/fonts/WorkSans-Light.woff2') format('woff2');
+  src: url('public/fonts/WorkSans-Light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
 /* Italic */
 @font-face {
   font-family: 'Work Sans';
-  src: url('/fonts/WorkSans-Italic.woff2') format('woff2');
+  src: url('public/fonts/WorkSans-Italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
 }
@@ -66,5 +66,11 @@ html, body, #root {
   z-index: 0; /* Ensure it stays behind other content */
   pointer-events: none; /* Prevent interaction with the flag */ 
   box-shadow: -5px 0 8px rgba(0, 0, 0, 0.4); /* Optional shadow for depth */
+}
 
+/* I dont want the flag to show on phones or tablets resolutions */
+@media (max-width: 1400px) {
+  .jamaican-flag {
+    display: none; /* Hide the flag on smaller screens */
+  }
 }

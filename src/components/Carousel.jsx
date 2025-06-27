@@ -7,12 +7,16 @@ const slides = [
     text: "Célia Sampaio: Conhecida nacionalmente como a Dama do Reggae.",
   },
   {
-    image: "https://oimparcial.com.br/app/uploads/2019/08/N%C3%BAbia.jpg",
-    text: "Nubia Rodrigues: Com apenas 5 anos de estrada causa bastante impacto com sua voz retumbante",
+    image: `${import.meta.env.BASE_URL}assets/nubia.jpg`,
+    text: "Nubia Rodrigues causa bastante impacto com sua voz retumbante",
   },
   {
     image: "https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/12/11/883951730-tribo-de-jah-prima-imagens-jpg.jpg",
     text: "Tribo de Jah: Uma das bandas de reggae mais influentes do Brasil, formada em São Luís.",
+  },
+  {
+    image: "https://imgs.search.brave.com/vfk7z18YBvTE7QDegMaux5BuWx4cU0bFvEeUS32eSLY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9yZXZp/c3RheWViYS5jb20v/d3AtY29udGVudC91/cGxvYWRzLzIwMjQv/MTEvZ2RhbTMuanBn/P3c9ODUw",
+    text: "O Grupo de Dança Afro Malungos o GDAM  É um coletivo cultural fundado em 1986",
   },
 ];
 

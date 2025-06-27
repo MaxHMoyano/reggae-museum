@@ -25,28 +25,29 @@ const ScriptShowcase = ({ title, imageUrl, summary, highlights = [] }) => {
         >
           {title}
         </motion.h2>
+        <div className='flex flex-col lg:flex-row items-center justify-center gap-8 w-full px-4'>
+          {imageUrl && (
+            <motion.img
+              src={imageUrl}
+              alt={title}
+              className="w-full rounded-lg shadow-lg mb-8 object-cover"
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ duration: 0.8 }}
+              viewport={{ once: true }}
+            />
+          )}
 
-        {imageUrl && (
-          <motion.img
-            src={imageUrl}
-            alt={title}
-            className="w-full max-w-3xl rounded-lg shadow-lg mb-8 object-cover"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
+          <motion.p
+            className="text-lg md:text-xl leading-8"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
             viewport={{ once: true }}
-          />
-        )}
-
-        <motion.p
-          className="text-lg md:text-xl leading-8 max-w-3xl"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.2 }}
-          viewport={{ once: true }}
-        >
-          {highlightedSummary}
-        </motion.p>
+          >
+            {highlightedSummary}
+          </motion.p>
+        </div>
       </div>
     </section>
   );
