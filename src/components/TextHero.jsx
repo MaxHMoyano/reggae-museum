@@ -8,7 +8,7 @@ const TextHero = ({ title, text, imageUrl, align = 'left' }) => {
     <div
       className={`
         flex flex-col md:flex-row items-center justify-between 
-        max-w-7xl mx-auto px-6 xl:px-0 py-10
+        max-w-7xl mx-auto px-6 xl:px-2 py-10
         ${isLeft ? 'text-left md:flex-row' : 'text-right md:flex-row-reverse'}
       `}
     >
